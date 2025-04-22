@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: darkgrey;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: auto;
+    box-shadow: 4px 4px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: orangered;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: auto;
+    box-shadow: 4px 4px;
+}
+
+.editable {
+    cursor: pointer;
+    
+}
+
+h2 {
+    background: green;
+    color: black;
+    padding: 10px;
+    border-radius: auto;
+    box-shadow: 4px 4px;
+}
+
+.rules {
+    width: 90%;
+    max-width: 900px;
+    background: navajowhite;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 4px 4px;
+    list-style-type: none;
+}
+
+.rules li {
+    background: white;
+    border-collapse: collapse;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
